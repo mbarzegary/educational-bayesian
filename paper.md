@@ -28,7 +28,7 @@ Parameter estimation is an inevitable and crucial aspect of computational modeli
 
 According to `[@Tarantola1987]`, inverse modeling is the use of the actual results of some measurements of the observable parameters to infer the actual values of the model parameters. Put differently, what we want to do is estimating parameters that cannot be directly measured for our computational model. This is also called parameter estimation or model calibration. Indeed, we calibrate our model to act similarly to available experimental data, and then this calibrated model can be used to simulate other scenarios that that haven’t been tested yet in the experiments. This is a common process in a lot of modeling problems in science and engineering.
 
-Take a simple reaction-diffusion equation as an example, in which the change of the concentration of a sample chemical component $C$ is studied over time. By assuming that the correlated chemical reaction is $ A + 2B \rightleftharpoons C$, occurring in a diffusible medium (such as a chemical solution), the PDE to describe the mass transfer phenomenon over time can be written as [@Grindrod1996]:
+Take a simple reaction-diffusion equation as an example, in which the change of the concentration of a sample chemical component $C$ is studied over time. By assuming that the correlated chemical reaction is $A + 2B \rightleftharpoons C$, occurring in a diffusible medium (such as a chemical solution), the PDE to describe the mass transfer phenomenon over time can be written as [@Grindrod1996]:
 
 $$ \frac{\partial [C]}{\partial t} = \nabla . \left( D_C \nabla [C] \right) + k_1 [A][B]^2 - k_2 [C] $$
 
