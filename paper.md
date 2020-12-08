@@ -42,8 +42,6 @@ Despite its simplicity, building an inverse problem is hard for many students. T
 
 This notebook is indeed a modern learning module for relatively old and frequently-used concepts (global optimization, Bayesian techniques, inverse problems). It has been designed to be useful for both teachers and students. Students can use it as a self-study guide for parameter estimation and inverse problem construction, while teachers can change the underlying problem to any other desired one easily and make the learning module compatible with their own teaching requirements.
 
-The assembled source code of the notebook [is maintained in a GitHub repository](https://github.com/mbarzegary/BayesianFEM) and can be used in practical projects to quickly set up an inverse problem to estimate the unknown parameters of computational models. Some out-of-box data is also available to check the post-processing capabilities of the developed code.
-
 # Acknowledgements
 
 This research is financially supported by the Prosperos project, funded by the Interreg VA Flanders – The Netherlands program, CCI grant no. 2014TC16RFCB046 and by the Fund for Scientific Research Flanders (FWO), grant G085018N . We acknowledge support from the European Research Council under the European Union’s Horizon 2020 research and innovation programmen, ERC CoG 772418.
