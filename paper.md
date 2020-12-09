@@ -36,13 +36,22 @@ in which $[X]$ denotes the concentration of the chemical component $X$, the $D_C
 
 As mentioned above, one solution is solve the inverse problem, in which we can use optimization techniques to minimize the difference of the model output and experimental data. Bayesian optimization is one of the most efficient approaches in this regard [@Mockus1989]. `HyperOpt` [@Bergstra2013] is a Python package that provides easy-to-use interfaces to implement a Bayesian optimization problem, making it a proper choice for both educational and practical purposes. In this educational module, we used this package to teach the principles of an efficient parameter estimation pipeline.
 
-For demonstration purposes, an interpolation problem is solved by using the same parameter estimation techniques that a computational modeling researcher employs for model calibration. Indeed, the computational intensive code is replaced with a simple function evaluator, which helps students to learn the core concepts without waiting too much for the process to finish. Students will be guided through several steps of refining the results inside the notebook, in which the interactive computing environment of Jupyter facilitates exploring the implementation more efficiently. 
+For demonstration purposes, an interpolation problem is solved by using the same parameter estimation techniques that a computational modeling researcher employs for model calibration. Indeed, the computational intensive code is replaced with a simple function evaluator, which helps students to learn the core concepts without waiting too much for the process to finish. Students will be guided through several steps of refining the results inside the notebook, in which the interactive computing environment of Jupyter facilitates exploring the implementation more efficiently.
 
 # Statement of Need
 
 Despite its simplicity, building an inverse problem is hard for many students. The problem is although it is relatively simple to describe the process visually, implementing it for a practical application becomes challenging in its early stages. In this educational module, a simple optimization problem is implemented in a Jupyter notebook to teach students how to construct an inverse problem and tune it to get better results in such a problem. In this way, students can work on a real-world optimization problem in an interactive environment and learn the concepts behind taking advantage of a modern optimization method (Bayesian approach) for parameter estimation of a computational model.
 
 This notebook is indeed a modern learning module for relatively old and frequently-used concepts (global optimization, Bayesian techniques, inverse problems). It has been designed to be useful for both teachers and students. Students can use it as a self-study guide for parameter estimation and inverse problem construction, while teachers can change the underlying problem to any other desired one easily and make the learning module compatible with their own teaching requirements.
+
+# Learning objectives
+
+Upon completion, students will be able to:
+
+* Understand the necessity of parameter estimation and model calibration in computational modeling
+* Describe what the whole process of parameter estimation is all about
+* Implement the workflow of parameter estimation for common use-cases
+* Critically evaluate the output of the process and fine-tune the setup of the parameter estimation
 
 # Pedagogy and instructional design
 
