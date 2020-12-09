@@ -48,6 +48,8 @@ The provided material is the format of a crash course, which is suitable for bei
 
 The teaching strategy is based on the worked-example effect [@Chen2015], in which an example of parameter estimation is fully implemented to allow students to play with and modify the code to have their own reflection in class discussions. A basic prior knowledge of Python suffices as the problem doesn't involve students with complicated programming stuff. The student-centric characteristic of this crash course helps teachers to adopt the material easily and integrate it into existing syllabus of relevant courses in science and engineering.
 
+The learning material is provided as a single Jupyter notebook, in which all the steps of constructing an inverse problem is described in detail with accompanying Python codes. A very simple simulation code (in the context of an interpolation problem) is also provided and can be found in the repository. The code inside the notebook calls this external program at certain points to mimic the interaction of the parameter estimation routine and the main computational code that contains the unknown parameters.
+
 # Acknowledgements
 
 This research is financially supported by the Prosperos project, funded by the Interreg VA Flanders – The Netherlands program, CCI grant no. 2014TC16RFCB046 and by the Fund for Scientific Research Flanders (FWO), grant G085018N . We acknowledge support from the European Research Council under the European Union’s Horizon 2020 research and innovation programmen, ERC CoG 772418.
