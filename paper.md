@@ -42,6 +42,10 @@ Despite its simplicity, building an inverse problem is hard for many students. T
 
 This notebook is indeed a modern learning module for relatively old and frequently-used concepts (global optimization, Bayesian techniques, inverse problems). It has been designed to be useful for both teachers and students. Students can use it as a self-study guide for parameter estimation and inverse problem construction, while teachers can change the underlying problem to any other desired one easily and make the learning module compatible with their own teaching requirements.
 
+# Pedagogy
+
+The provided material is the format of a crash course, which is suitable for being taught in one session of undergraduate or graduate courses for science and engineering students. Courses to which this material is relevant can be “optimization”, “scientific computing”, or “parametric design”. The material may also be useful for relevant educational projects for the target students, in which they can employ the learned techniques to construct efficient inverse problems for parameter estimation.
+
 # Acknowledgements
 
 This research is financially supported by the Prosperos project, funded by the Interreg VA Flanders – The Netherlands program, CCI grant no. 2014TC16RFCB046 and by the Fund for Scientific Research Flanders (FWO), grant G085018N . We acknowledge support from the European Research Council under the European Union’s Horizon 2020 research and innovation programmen, ERC CoG 772418.
