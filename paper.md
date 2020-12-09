@@ -48,7 +48,11 @@ The provided material is the format of a crash course, which is suitable for bei
 
 The teaching strategy is based on the worked-example effect [@Chen2015], in which an example of parameter estimation is fully implemented to allow students to play with and modify the code to have their own reflection in class discussions. A basic prior knowledge of Python suffices as the problem doesn't involve students with complicated programming stuff. The student-centric characteristic of this crash course helps teachers to adopt the material easily and integrate it into existing syllabus of relevant courses in science and engineering.
 
+# Getting started
+
 The learning material is provided as a single Jupyter notebook, in which all the steps of constructing an inverse problem is described in detail with accompanying Python codes. A very simple simulation code (in the context of an interpolation problem) is also provided and can be found in the repository. The code inside the notebook calls this external program at certain points to mimic the interaction of the parameter estimation routine and the main computational code that contains the unknown parameters.
+
+To get started with the module, the user should first setup the environment. The setup instruction is provided in the `README.md` file of the repository. After setting up the Jupyter notebook and installing required packages, the user can navigate to the `src` folder and run the `HowToConstructInverseProblems.ipynb` notebook. No further action is needed as  the content of notebook is self-explanatory and easy-to-follow.
 
 # Acknowledgements
 
