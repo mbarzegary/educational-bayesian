@@ -42,9 +42,11 @@ Despite its simplicity, building an inverse problem is hard for many students. T
 
 This notebook is indeed a modern learning module for relatively old and frequently-used concepts (global optimization, Bayesian techniques, inverse problems). It has been designed to be useful for both teachers and students. Students can use it as a self-study guide for parameter estimation and inverse problem construction, while teachers can change the underlying problem to any other desired one easily and make the learning module compatible with their own teaching requirements.
 
-# Pedagogy
+# Pedagogy and instructional design
 
 The provided material is the format of a crash course, which is suitable for being taught in one session of undergraduate or graduate courses for science and engineering students. Courses to which this material is relevant can be “optimization”, “scientific computing”, or “parametric design”. The material may also be useful for relevant educational projects for the target students, in which they can employ the learned techniques to construct efficient inverse problems for parameter estimation.
+
+The teaching strategy is based on the worked-example effect [@Chen2015], in which an example of parameter estimation is fully implemented to allow students to play with and modify the code to have their own reflection in class discussions. A basic prior knowledge of Python suffices as the problem doesn't involve students with complicated programming stuff. The student-centric characteristic of this crash course helps teachers to adopt the material easily and integrate it into existing syllabus of relevant courses in science and engineering.
 
 # Acknowledgements
 
