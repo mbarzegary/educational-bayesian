@@ -12,4 +12,10 @@ After activating the virtual environment, you should install iPython and Jupyter
 
 `$ pip install -r requirements.txt`
 
-After this, you can run Jupyter notebooks (by running `$ jupyter notebooks`) and navigate to HowToConstructInverseProblems.ipynb.
+After this, you can run Jupyter notebooks by running `$ jupyter notebooks`.
+
+## Getting started
+
+The learning material is provided as a single Jupyter notebook, in which all the steps of constructing an inverse problem is described in detail with accompanying Python codes. A very simple simulation code (in the context of an interpolation problem) is also provided and can be found in the repository. The code inside the notebook calls this external program at certain points to mimic the interaction of the parameter estimation routine and the main computational code that contains the unknown parameters.
+
+After setting up the Jupyter notebook and installing the required packages, the user can navigate to the `src` folder and run the `CrashCourseOnParameterEstimation.ipynb` notebook. No further action is needed as the content of the notebook is self-explanatory and easy-to-follow.
