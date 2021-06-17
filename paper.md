@@ -48,10 +48,15 @@ This notebook is indeed a modern learning module for relatively old and frequent
 
 Upon completion, students will be able to:
 
-* Understand the necessity of parameter estimation and model calibration in computational modeling
-* Describe what the whole process of parameter estimation is all about
-* Implement the workflow of parameter estimation for common use-cases
-* Critically evaluate the output of the process and fine-tune the setup of the parameter estimation
+* Understand the concept and necessity of parameter estimation in science and engineering
+* Describe what the whole process of Bayesian optimization is all about
+* Define and implement a Bayesian optimization workflow for parameter estimation of common use-cases
+* Critically evaluate the output of the process and fine-tune the setup of the Bayesian optimization
+* Apply the obtained knowledge to any kind of models that are commonly used in science and engineering
+
+# Prerequisites
+
+In order to go through the learning module, the students should have a working knowledge of programming in Python. Additionally, a basic understanding of mathematics is required to get the concept of models in science and engineering. The given example is a mathematical model derived from differential equations, so knowledge of differential equations can help to understand the importance of parameter estimation in these widely-used models. However, in case of necessity, the example can be replaced by any other relevant one for the target learners.
 
 # Pedagogy and instructional design
 
