@@ -32,7 +32,7 @@ Take a simple reaction-diffusion equation as an example, in which the change of 
 
 $$ \frac{\partial [C]}{\partial t} = \nabla . \left( D_C \nabla [C] \right) + k_1 [A][B]^2 - k_2 [C] $$
 
-in which $[X]$ denotes the concentration of the chemical component $X$, the $D_C$ is the diffusion coefficient of C in the medium, and $k_1$ and $k_2$ are the rates of the forward and backward reactions, respectively. To solve this PDE numerically and get quantitative data (he goal of most of the scientific computing projects), we need to know the value of $D_C$, $k_1$, and $k_2$, which is usually hard-to-find in the literature.
+in which $[X]$ denotes the concentration of the chemical component $X$, the $D_C$ is the diffusion coefficient of C in the medium, and $k_1$ and $k_2$ are the rates of the forward and backward reactions, respectively. To solve this PDE numerically and get quantitative data (the goal of most of the scientific computing projects), we need to know the value of $D_C$, $k_1$, and $k_2$, which is usually hard-to-find in the literature.
 
 As mentioned above, one solution is to to solve the inverse problem, in which we can use optimization techniques to minimize the difference between the model output and experimental data. Bayesian optimization is one of the most efficient approaches in this regard [@Mockus1989]. `HyperOpt` [@Bergstra2013] is a Python package that provides easy-to-use interfaces to implement a Bayesian optimization problem, making it a good choice for both educational and practical purposes. In our educational module, we used this package to teach the principles of an efficient parameter estimation pipeline.
 
