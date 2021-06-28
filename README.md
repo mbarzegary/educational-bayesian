@@ -1,6 +1,26 @@
 # An open source crash course on parameter estimation of computational models using a Bayesian optimization approach
 
+[![DOI](https://jose.theoj.org/papers/10.21105/jose.00089/status.svg)](https://doi.org/10.21105/jose.00089)
+
 This repository contains an educational Jupyter notebook to learn how to construct inverse problems in computational engineering. The ready-to-use code of this educational material is maintained in [another GitHub repository](https://github.com/mbarzegary/BayesianFEM).
+
+## Publication
+
+This material is used to publish a module in the Journal of Open Source Education. You can access the paper [here](https://doi.org/10.21105/jose.00089). The full citation data, in case you want to refer to it, is:
+
+    @article{Barzegari2021,
+    doi = {10.21105/jose.00089},
+    url = {https://doi.org/10.21105/jose.00089},
+    year = {2021},
+    publisher = {The Open Journal},
+    volume = {4},
+    number = {40},
+    pages = {89},
+    author = {Mojtaba Barzegari and Liesbet Geris},
+    title = {An open source crash course on parameter estimation of computational models using a Bayesian optimization approach},
+    journal = {Journal of Open Source Education}
+    }
+
 
 ## Installation
 
